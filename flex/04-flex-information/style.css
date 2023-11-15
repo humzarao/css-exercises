@@ -7,6 +7,15 @@ img {
   height: 100px;
 }
 
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
@@ -23,4 +32,22 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+/*solution*/
+
+.title{
+  display:flex;
+  justify-content: center;
+  margin:32px;
+}
+
+.info{
+  max-width: 200px;
+  text-align: center;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+  gap: 52px;
 }
